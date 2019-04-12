@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center my-3">Weight Converter</h1>
+            </div>
+        </div>
+        <form class="form-group">
+            <input type="number" class="form-control form-control-lg" id="lbsInput" placeholder="Enter Pounds">
+        </form>
+        <div id="output">
+            <div class="card mb-2 card-primary">
+                <div class="card-block">
+                    <h4 class="pl-1">Grams:</h4>
+                    <div id="gramsOutput"></div>
+                </div>
+            </div>
+            <div class="card mb-2 card-success">
+                <div class="card-block">
+                    <h4 class="pl-1">KiloGrams:</h4>
+                    <div id="kilogramsOutput"></div>
+                </div>
+            </div>
+            <div class="card mb-2 card-danger">
+                <div class="card-block">
+                    <h4 class="pl-1">Ounce:</h4>
+                    <div id="ounceOutput"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
