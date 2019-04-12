@@ -1,0 +1,19 @@
+body {
+    background: #333;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.card-primary {
+    background: blue;
+}
+
+.card-success {
+    background: green;
+
+}
+
+.card-danger {
+    background: red;
+}
